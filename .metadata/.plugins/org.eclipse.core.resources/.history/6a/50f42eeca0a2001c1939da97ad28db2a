@@ -1,0 +1,16 @@
+
+
+server.port = 8020
+spring.application.name = product-ms
+
+
+eureka.client.register-with-eureka = false
+eureka.client.fetch-registry = false
+eureka.instance.preferIpAddress=true
+
+
+
+eureka.client.serviceUrl.defaultZone = http://localhost:8010/eureka
+
+
+spring.devtools.remote.restart.enabled = true

@@ -1,0 +1,5 @@
+package com.ahmed.produits.entities;
+
+public class Produit {
+
+}

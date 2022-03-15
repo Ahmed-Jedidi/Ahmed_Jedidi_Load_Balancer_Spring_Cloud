@@ -1,0 +1,5 @@
+package com.javatechie.spring.load.balance.api;
+
+public class Produit {
+
+}

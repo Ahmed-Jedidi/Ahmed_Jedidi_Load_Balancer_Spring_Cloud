@@ -1,0 +1,24 @@
+package com.javatechie.spring.load.balance.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.netflix.client.config.IClientConfig;
+import com.netflix.loadbalancer.IPing;
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.PingUrl;
+
+public class RibbonConfiguration {
+	
+	
+	@Autowired
+	IClientConfig ribbonclient;
+	
+	public IPing ping(IClientConfig ribbonClient) {
+		return new PingUrl();
+	}
+	
+	public IRule rule(IClientConfig ribbonclient) {
+		
+	}
+
+}

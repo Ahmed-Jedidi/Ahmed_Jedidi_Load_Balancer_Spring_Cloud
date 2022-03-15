@@ -1,0 +1,5 @@
+package com.ahmed.produits.service;
+
+public class ProduitServiceImpl {
+
+}

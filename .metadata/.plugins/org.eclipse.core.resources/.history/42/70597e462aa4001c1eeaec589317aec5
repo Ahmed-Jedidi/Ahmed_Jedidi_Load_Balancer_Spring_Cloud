@@ -1,0 +1,13 @@
+package com.javatechie.spring.load.balance.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.netflix.client.config.IClientConfig;
+
+public class RibbonConfiguration {
+	
+	
+	@Autowired
+	IClientConfig ribbonclient;
+
+}

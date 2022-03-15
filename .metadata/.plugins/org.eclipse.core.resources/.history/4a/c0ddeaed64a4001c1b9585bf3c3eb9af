@@ -1,0 +1,13 @@
+
+chatbook.ribbon.eureka.enabled = false
+chatbook.ribbon.listOfServers = localhost:8081, localhost:8082,  localhost:8083
+
+
+server.port=9090
+
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/spring_DB?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
